@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* width: 100%; */
+}
+
+.name{
+    font-weight: 900;
+    font-family: 'Overlock', cursive; 
+    font-size: 45px;  
+    padding-top:75px;
+}
+.images{
+    box-shadow: 0 3px 6px 0.8px black;
+    border-radius: 5px;
+}
+.section_one {
+    background-image: url("images/images2.jpg");
+}
+/* @media only screen and (max-width: 600px) {
+    .images{
+        margin-top: 50px;
+        margin-left:50px;
+    }
+  } */
+  .section_two h1{
+    font-family: 'Overlock', cursive; 
+  }
