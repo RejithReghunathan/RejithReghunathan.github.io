@@ -13,18 +13,23 @@
     font-size: 45px;  
     padding-top:75px;
 }
+.section_one{
+    margin-top: 50px;
+}
 .images{
     box-shadow: 0 3px 6px 0.8px black;
     border-radius: 5px;
 }
-/* @media only screen and (max-width: 600px) {
-    .images{
-        margin-top: 50px;
-        margin-left:50px;
-    }
-  } */
-  .section_two h3, .section-three h3{
-      color: #000;
+.nav-pos{
+    position: fixed;
+    width: 100%;
+    overflow: auto;
+    top: 0;
+    z-index: 999;
+}
+
+  .section_two h3, .section-three h3, .section_four h3,.section_five h3{
+      color: #192A56;;
       font-weight:bolder;
       font-size: 40px;
       text-transform: uppercase;
@@ -42,7 +47,7 @@
     position: absolute;
     top: 7vmin;
     bottom: 3vmin;
-    left: -18vmin;
+    /* left: -18vmin; */
     background:white;
     border-radius: 3px;
     text-align: left;
@@ -68,3 +73,9 @@ h4{
      font-weight: bolder;
      text-transform: uppercase;
 }
+
+@media only screen and (max-width: 600px) {
+    .secnd-cls{
+        margin-top: 50px;
+    }
+  }
